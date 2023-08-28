@@ -80,4 +80,7 @@ public class TV {
     		volumen++;
     	}
     }
+    public boolean getEstado() {
+    	return estado;
+    }
 }
