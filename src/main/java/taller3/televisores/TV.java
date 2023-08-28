@@ -44,6 +44,9 @@ public class TV {
 	public void setControl(Control control) {
 		this.control = control;
 	}
+	public Control getControl() {
+		return control;
+	}
 	public static void setNumTV(int num) {
 		TV.numTV = num;
 	}
